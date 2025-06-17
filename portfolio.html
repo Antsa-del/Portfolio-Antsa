@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="" class="logo">Port<span>folio</span></a>
+        <div class="navbar">
+            <i class='bx  bx-menu'></i>
+            <ul>
+                <a href="#home">Acceuil</a>
+                <a href="#about">A propos</a>
+                <a href="#services">Passions</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </ul>
+        </div>
+    </header>
+
+    <!-- header-content -->
+     <div class="header-content" id="home">
+        <div class="text">
+            <p>Bonjour c'est Antsa</p>
+            <h2>Je suis Malgache</h2>
+            <h3>et Je me forme au métier <span></span></h3>
+            <div class="icons">
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-tiktok'></i>
+                <i class='bx bxl-youtube'></i>
+            </div>
+            <a href="images/CV.pdf" target="_blank">Voir mon CV</a>
+        </div>
+        <img src="images/bg.png" alt="" width="400px" height="400px">
+     </div>
+     <!-- section-apropos-->
+      <section class="about" id="about">
+        <div class="about-img"><img src="images/apropos.png" alt=""></div>
+        <div class="about-text">
+            <h2 class="title">A propos de <span>moi</span></h2>
+            <h1>Etudiante en Numérique!</h1>
+            <p>Je suis une étudiante passionnée par le numérique, en formation en informatique 
+                et design graphique. Curieuse, créative et persévérante, je développe mes compétences 
+                en informatique, réseaux et création visuelle avec Figma. Attentive et organisée, 
+                je progresse grâce aux retours dans mes projets. Intéressée par l’impact social du numérique, 
+                je souhaite utiliser la technologie pour améliorer la vie et l’éducation dans mon pays.
+            <br> Créative,curieuse et motivée, je cherche à développer mes compétences pour produire des designs professionnels et percutants.</p>
+            <a href="#services" class="btn">Voir plus</a>
+        </div>
+      </section>
+
+      <!-- Section-services -->
+    <section class="services" id="services">
+        <h2 class="title"><span>P</span>assions</h2>
+        <div class="services-contrainer">
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h2>développement web</h2>
+                <p>c'est ma passion et mon objectif pour l'avenir. Je maîtrise la création d'interfaces 
+                front-end simples et attrayantes en HTML et CSS, et je suis constamment en train d'apprendre 
+                pour perfectionner mes compétences. Mon rêve est de créer des sites web fonctionnels et esthétiques 
+                qui offrent une expérience utilisateur optimale</p> 
+                <a href="images/demo interface.png">demo</a><br>
+                <a href="#services" class="btn">Voir Plus</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-brush'></i>
+                <h2>Conception graphique</h2>
+                <p>Je me forme à la conception graphique, en me concentrant sur la création d'affiches,
+                de posters et de visuels web. J’utilise Figma pour concevoir des designs percutants,
+                adaptés aux besoins des projets. Mon objectif est de maîtriser les bases du design afin
+                de produire des visuels esthétiques et professionnels.</p> 
+                <a href="images/demo figma.jpg">demo</a><br>
+                <a href="" class="btn">Voir Plus</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h2>It literacy</h2>
+                <p>Informatique Générale: <br>j’apprends les bases de l’informatique et des systèmes 
+                d’exploitation, notamment Linux, pour bien utiliser les outils numériques au quotidien.</p> 
+                <p>Réseaux et Sécurité: <br> Je me forme aux principes des réseaux et de la cybersécurité
+                pour comprendre et protéger les systèmes informatiques.</p>
+                <a href="images/demo IT.pdf">Leçon</a><br>
+                <a href="#" class="btn">Voir Plus</a>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="services-contrainer">
+            <div class="services-box">
+                <a href="#" class="btn">Voir Plus</a>
+            </div>
+        </div>
+    </section>
+    <!-- Section portfolio -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="title"><span>Mes</span> Projets</h2>
+        <div class="row">
+            <div class="portfolio-box">
+                <img src="images/p-1.png" alt="">
+            </div>
+            <div class="portfolio-box">
+                <img src="images/p-2.png" alt="">
+            </div>
+            <div class="portfolio-box">
+                <img src="images/p-3.png" alt="">
+            </div>
+            <div class="portfolio-box">
+                <img src="images/p-4.png" alt="">
+            </div>
+            <div class="portfolio-box">
+                <img src="images/p-5.png" alt="">
+            </div>
+            <div class="portfolio-box">
+                <img src="images/p-6.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section-contact -->
+    <section class="contact" id="contact">
+        <h2 class="title"><span>C</span>ontact</h2> <br>
+            <form action="">
+                <div class="contact-input">
+                    <input type="text" placeholder="Entrez Votre Nom">
+                    <input type="text" placeholder="Entrez Votre Email">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Entrez votre texte"></textarea>
+                <a href="" class="btn">Envoyer</a>
+            </form>
+    </section>
+
+    <!-- Copyright -->
+    <section class="Copyright">
+        <p>Copyright &copy; 2025 by Antsa Maria</p>
+        <a href="#home" class="btn">Retour à l'Acceuil</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
