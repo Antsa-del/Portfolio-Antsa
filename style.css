@@ -6,13 +6,13 @@
     scroll-behavior: smooth;
 }
 :root {
-    --bg--color: #94959f;
-    --second-color:#6d6d71;
-    --pink-color: #26266b;
+    --bg--color:#f4f0ee ;
+    --second-color: #b2967d;
+    --pink-color: #ecf8f8;
 }
 body {
     background: var(--bg--color);
-    color: #f2eeee;
+    color: #0e0c0c;
 }
 section {
     padding: 2% 6%;
@@ -28,22 +28,19 @@ header {
     padding: 2% 6%;
 }
 .logo {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     text-decoration: none;
 }
-span {
-    color: var(--pink-color);
-}
 .navbar {
     display: inline-block;
-    padding: 8px 12px;
+    padding: 3px 5px;
 }
 .navbar a {
     text-decoration: none;
     color: #fff;
-    margin-left: 24px;
-    font-style: 18px;
+    margin-left: 12px;
+    font-style: 10px;
     transition: 0.2s;
 }
 .navbar a:hover {
@@ -81,7 +78,7 @@ span {
     margin-top: 30px;
 }
 .icons i {
-    font-style: 30px;
+    font-style: 40px;
     cursor: pointer;
     transition: 0.5s;
 }
